@@ -8,12 +8,9 @@ export default function Homepage() {
   const location = useLocation();
   console.log(location);
   return (
-    <>
+    <div className="home">
       <Header />
-      <div className="home">
         <Posts />
-        <Sidebar />
-      </div>
-    </>
+    </div>
   );
 }

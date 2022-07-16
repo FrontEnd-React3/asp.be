@@ -26,6 +26,12 @@
   width: 4vmin;
   height: 4vmin;
   text-align: center;
+  box-shadow: 4px 2px 50px 2px white;
+  transition: all 1s;
+}
+#btn:hover {
+  box-shadow: 4px 2px 5px 2px white;
+  cursor: pointer;
 }
 #modCont {
   display: flex;

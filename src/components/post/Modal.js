@@ -12,7 +12,9 @@ const MODAL_STYLES = {
   borderradius: '10px !important',
   width: '80vmin',
   height: '80vmin',
-  zIndex: 1000
+  zIndex: 1000,
+  boxShadow: '5px 5px 15px 0px rgb(0 60 70)',
+
 }
 
 const OVERLAY_STYLES = {

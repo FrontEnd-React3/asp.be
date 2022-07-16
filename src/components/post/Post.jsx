@@ -19,12 +19,12 @@ export default function Post({ open }) {
 } 
 
   return (
-    <div>
+    <div className="postwrapper">
       {Daata.map((ijustneedone) => (
-        <div className="postwrapper" key={(ijustneedone.id)}  >
+        <div  key={(ijustneedone.id)}  >
           <div className="post">
-          ("id" === {ijustneedone.id})
-          ( {ijustneedone.id} = specific)
+          {/* ("id" === {ijustneedone.id})
+          ( {ijustneedone.id} = specific) */}
           
           <Modal justone={ijustneedone} id={ijustneedone.id} title={ijustneedone.title} open={isOpen} >
          

@@ -37,7 +37,7 @@ export const Daata = [
   },
   {
     id: uuid(),
-    title: "Why is React taking by storm?",
+    title: "Taking the market by storm.",
     subtitle: "Need for speed.",
     body: "A big advantage is the speed of implementation of the tool and the possibility of basing a very dynamic interface on it. This means that it is possible to make necessary updates in real-time without an need for reloading the page, giving that typical flickering when changing from one page to another. You can work remotely on a document, considering the amendments and changes that are still being made.",
     image:
@@ -55,7 +55,7 @@ export const Daata = [
     title: "React Native",
     subtitle: "A mobile first mindset.",
     body: " Mobile phones are everyone's pocket computer. The software for those devices can not be a smaller, responsive version of the computer application.",
-    body1: "Touch screens have dynamic keyboards that are different depending on the information you have to type. Are you introducing a date or rather an email? A different keyboard is called whereas keyboards on computers don't appear on the screens.",
+    body1: "Touch screens have dynamic keyboards that are different depending on the information you have to type. Are you introducing a date or rather an email? A different keyboard is called, whereas keyboards on computers don't appear on their screens.",
     body2: "Cell phones don't allow 'hover effects'. Querty or Azerty, it can be programmed, maybe you want mainly numbers?",
     image: mobile,
     imgMod: phone,
