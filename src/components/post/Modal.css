@@ -1,0 +1,15 @@
+.modalstyles {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: beige;
+  width: 80vmin;
+  height: 80vmin;
+  z-index: 1000;
+}
+.modalImg{
+  width: 80vmin
+}
