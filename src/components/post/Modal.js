@@ -25,22 +25,37 @@ const OVERLAY_STYLES = {
   zIndex: 1000
 }
 
-export default function Modal({ justone, open, id, title, children, onClose }) {
+export default function Modal({ justone, open, id, title, children, setIsOpen }) {
   if (!open) return null
 
   return ReactDom.createPortal(
     <>
       <div style={OVERLAY_STYLES} />
-      <div style={MODAL_STYLES}>{children}
-        <button id="btn" onClick={onClose}>Close</button>
+      <div id="modCont" style={MODAL_STYLES}>{children}
+        <button id="btn" oonClick={() => setIsOpen(false)}>x</button>
         {/* {alert([title])}{[...id]} */}
+        
         <div>
           <img
             className="modalImg"
             src={justone.imgMod}
             alt={justone.imgMod}
           />
-          {justone.id == id ? justone.title : "Nothing"},
+          <div className="modalBodyCont">
+            <span className="grayBody modalBody">
+              {(justone.body).slice(0, 60)}
+              {/* {justone.id == id ? (justone.body).slice(0, 60) : "Nothing"} */}
+              </span>
+              <span className="blueBody modalBody">
+              {(justone.body).slice(60, 1500)}
+            </span>
+
+            <div className="blueBody modalBody spacer">
+              {(justone.body1)}
+            </div>            <div className="blueBody modalBody spacer">
+              {(justone.body2)}
+            </div>
+          </div>
 
         </div>
 

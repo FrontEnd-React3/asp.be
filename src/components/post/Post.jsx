@@ -6,7 +6,7 @@ import { Daata } from "./data";
 import Modal from './Modal'
 
 
-export default function Post({ open, onClose }) {
+export default function Post({ open }) {
 
 
   const [isReadMore, setIsReadMore] = useState(true);

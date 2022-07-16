@@ -10,6 +10,46 @@
   height: 80vmin;
   z-index: 1000;
 }
-.modalImg{
-  width: 80vmin
+.modalImg {
+  width: 80vmin;
+  height: 40vmin;
+  object-fit: cover;
+}
+
+#btn {
+  position: absolute;
+  float: right;
+  margin: -2vmin 0vmin 0vmin 80vmin;
+  color: white;
+  background: rgba(0, 60, 110, 0.7);
+  border-radius: 50%;
+  width: 4vmin;
+  height: 4vmin;
+  text-align: center;
+}
+#modCont {
+  display: flex;
+  justify-content: center;
+}
+.modalBodyCont {
+  width: 75vmin;
+  margin: 4vmin 0vmin 0vmin 2.5vmin;
+}
+.grayBody {
+  color: rgba(0, 80, 110, 0.5);
+  text-align: center !important;
+}
+.blueBody {
+  color: rgba(0, 80, 110, 1) !important;
+  font-weight: 600;
+}
+
+.modalBody {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2vmin;
+  line-height: 3vmin;
+}
+.spacer {
+  margin-top: 1.5vmin;
 }
