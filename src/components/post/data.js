@@ -22,7 +22,7 @@ export const Daata = [
   {
     id: uuid(),
     title: "What is React?",
-    subtitle: "An open source JavaScript framework.",
+    subtitle: "React is an open source JavaScript library.",
     body: "React really took off on February (6th) 2019, when Hooks were introduced. No more class based but function based programming what made it a lot easier to read. Hooks is an independent feature introduced in ReactJS 16.8, that enables JavaScript developers to write states and other features in function components. You don’t need to deal with the complicated classes anymore. Using Hooks, you can easily manage state logic between components, colocate similar logic in a single component and share data with components without props and classes.",
     image:
       what,

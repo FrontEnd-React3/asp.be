@@ -56,7 +56,7 @@ export default function Post({ open }) {
               </div>
               <p className="postDesc">
                 {((isReadMore ? ijustneedone.body.slice(0, 60) : ijustneedone.body))}
-                <span onClick={toggleReadMore} className="read-or-hide">
+                <span className="read-or-hide">
                   {(isReadMore ? "... read more" : " show less")}
                 </span>
                 {}
